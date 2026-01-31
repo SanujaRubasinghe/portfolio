@@ -155,6 +155,39 @@ section {
         }
       }
     }
+
+    .linkedin-btn {
+      @apply flex;
+
+      .inner {
+        @apply w-10 h-10 rounded-lg border border-[#0077B5] bg-[#0077B5] flex items-center justify-center transition-all duration-300;
+
+        img {
+          @apply transition-all duration-300;
+        }
+      }
+
+      &:hover .inner {
+        @apply bg-transparent;
+      }
+    }
+
+    .resume-btn {
+      @apply flex;
+
+      .inner {
+        @apply px-5 py-2 rounded-lg border bg-[#BFFFFF] text-black transition-all duration-300;
+        border-color: #BFFFFF;
+
+        span {
+          @apply transition-colors duration-300;
+        }
+      }
+
+      &:hover .inner {
+        @apply bg-transparent text-[#BFFFFF];
+      }
+    }
   }
 
   .app-showcase {

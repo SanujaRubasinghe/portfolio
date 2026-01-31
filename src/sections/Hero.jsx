@@ -33,7 +33,7 @@ const Hero = () => {
             <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
                 <div className="flex flex-col gap-7">
                     <div className="hero-text">
-                        <h1>Transforming
+                        <h1>Building
                         <span className="slide">
                             <span className="wrapper">
                                 {words.map((word) => (
@@ -49,14 +49,15 @@ const Hero = () => {
                             </span>
                         </span>
                         </h1>
-                        <h1>into Intelligent Solutions</h1>
-                        <h1>Through AI & Machine Learning</h1>
+                        <h1>Building</h1>
+                        <h1>Decentralized Solutions</h1>
+                        <h1>Through Blockchain & Web3</h1>
                     </div>
                     <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                        Hi, I'm Sanuja, an undergraduate student passionate about AI/ML, 
+                        Hi, I'm Shanuka Yasanga, a blockchain developer passionate about decentralized systems,
                     </p>
                     <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                        exploring how algorithms can solve real-world problems and create meaningful impact.
+                        building innovative solutions with smart contracts and Web3 technologies.
                     </p>
                     <Button 
                        className="md:w-80 md:h-16 w-60 h-12" 

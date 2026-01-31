@@ -12,27 +12,27 @@ const navLinks = [
     link: "#skills",
   },
   {
-    name: "Education",
+    name: "Blogs",
     link: "#education",
   },
 ];
 
 const words = [
-  { text: "Data", imgPath: "/images/data.svg" },
-  { text: "Algorithms", imgPath: "/images/algorithms.svg" },
-  { text: "Models", imgPath: "/images/models.svg" },
-  { text: "Insights", imgPath: "/images/ideas.svg" },
-  { text: "Data", imgPath: "/images/data.svg" },
-  { text: "Algorithms", imgPath: "/images/algorithms.svg" },
-  { text: "Models", imgPath: "/images/models.svg" },
-  { text: "Insights", imgPath: "/images/ideas.svg" },
+  { text: "Smart", imgPath: "/images/data.svg" },
+  { text: "Contracts", imgPath: "/images/algorithms.svg" },
+  { text: "DeFi", imgPath: "/images/models.svg" },
+  { text: "Web3", imgPath: "/images/ideas.svg" },
+  { text: "Smart", imgPath: "/images/data.svg" },
+  { text: "Contracts", imgPath: "/images/algorithms.svg" },
+  { text: "DeFi", imgPath: "/images/models.svg" },
+  { text: "Web3", imgPath: "/images/ideas.svg" },
 ];
 
 const counterItems = [
-  { value: 2, suffix: "+", label: "AI/ML Projects" },
-  { value: 1, suffix: "+", label: "Research Papers Read" },
-  { value: 5, suffix: "+", label: "Core Courses" },
-  { value: 2, suffix: "", label: "Years in CS" },
+  { value: 5, suffix: "+", label: "Blockchain Projects" },
+  { value: 10, suffix: "+", label: "Smart Contracts" },
+  { value: 3, suffix: "+", label: "DeFi Protocols" },
+  { value: 2, suffix: "", label: "Years in Web3" },
 ];
 
 const logoIconsList = [
@@ -74,40 +74,40 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Model Development",
-    desc: "Building and fine-tuning machine learning models from classical algorithms to deep neural networks.",
+    title: "Smart Contract Development",
+    desc: "Building secure and efficient smart contracts using Solidity and Rust for various blockchain platforms.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Continuous Learning",
-    desc: "Actively expanding knowledge through online courses, competitions, and hands-on experimentation with new technologies.",
+    title: "DeFi Protocols",
+    desc: "Designing and implementing decentralized finance protocols with focus on security and user experience.",
   },
   {
     imgPath: "/images/time.png",
-    title: "Problem Solving",
-    desc: "Breaking down complex challenges into manageable components and applying ML techniques to find optimal solutions.",
+    title: "Web3 Integration",
+    desc: "Integrating blockchain solutions with traditional web applications and creating seamless user experiences.",
   },
 ];
 
 const techStackImgs = [
   {
-    name: "React Developer",
-    imgPath: "/images/logos/react.png",
+    name: "Solidity Developer",
+    imgPath: "/images/logos/ethereum.png",
   },
   {
-    name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
+    name: "Rust Developer",
+    imgPath: "/images/logos/rust.png",
   },
   {
-    name: "Backend Developer",
+    name: "Web3.js Expert",
     imgPath: "/images/logos/node.png",
   },
   {
-    name: "Interactive Developer",
+    name: "Blockchain Architect",
     imgPath: "/images/logos/three.png",
   },
   {
-    name: "Project Manager",
+    name: "Smart Contract Auditor",
     imgPath: "/images/logos/git.svg",
   },
 ];
@@ -147,40 +147,28 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
-    responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
-    ],
+    review: "Comprehensive certification covering Ethereum blockchain development, smart contract programming, and DApp creation using Solidity.",
+    imgPath: "/images/certificates/ethereum-cert.jpg",
+    logoPath: "/images/logos/ethereum.png",
+    title: "Ethereum Developer Certification",
+    date: "March 2024",
+    description: "Mastered Ethereum blockchain development through intensive hands-on training covering smart contract development with Solidity, Ethereum Virtual Machine architecture, gas optimization techniques, and decentralized application creation. Successfully built multiple DApps using Web3.js and ethers.js while implementing industry-standard security practices and design patterns.",
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
-    responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
-    ],
+    review: "Advanced certification in DeFi protocols, covering lending platforms, automated market makers, and yield farming strategies.",
+    imgPath: "/images/certificates/defi-cert.jpg",
+    logoPath: "/images/logos/defi.png",
+    title: "DeFi Protocol Development",
+    date: "June 2024",
+    description: "Completed advanced training in decentralized finance protocol development, including building secure lending and borrowing platforms, implementing automated market making algorithms for decentralized exchanges, creating yield farming strategies with proper risk management, and developing cross-chain DeFi solutions using bridges and oracles.",
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
-    responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
-    ],
+    review: "Professional certification in blockchain security, focusing on smart contract auditing, vulnerability assessment, and secure development practices.",
+    imgPath: "/images/certificates/security-cert.jpg",
+    logoPath: "/images/logos/security.png",
+    title: "Blockchain Security Professional",
+    date: "September 2024",
+    description: "Achieved professional certification in blockchain security through comprehensive training in smart contract auditing using industry-standard tools, identifying and mitigating common vulnerabilities like reentrancy and overflow attacks, implementing secure development lifecycle for blockchain projects, and mastering formal verification techniques.",
   },
 ];
 
@@ -266,14 +254,14 @@ const socialImgs = [
 const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "DeFi Lending Protocol",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "A decentralized lending and borrowing platform built on Ethereum with automated market making and yield farming capabilities.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Developed smart contracts using Solidity for secure lending and borrowing operations.",
+      "Implemented automated market making (AMM) algorithm for dynamic interest rates.",
+      "Created a React-based frontend with Web3.js for seamless blockchain interaction.",
+      "Added comprehensive security measures including audit-ready code and test coverage.",
     ],
     href: "",
     logo: "",
@@ -281,36 +269,36 @@ const myProjects = [
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/images/logos/csharp.svg",
+        name: "Solidity",
+        path: "/images/logos/ethereum.png",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/images/logos/dotnet.svg",
+        name: "Web3.js",
+        path: "/images/logos/node.png",
       },
       {
         id: 3,
-        name: "Ef Core",
-        path: "/images/logos/efcore.png",
+        name: "React",
+        path: "/images/logos/react.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/images/logos/tailwindcss.svg",
+        name: "Ethereum",
+        path: "/images/logos/ethereum.png",
       },
     ],
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "NFT Marketplace",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "A full-featured NFT marketplace supporting ERC-721 and ERC-1155 tokens with auction capabilities and royalty distribution.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Built smart contracts for NFT minting, trading, and auction functionality.",
+      "Implemented IPFS integration for decentralized storage of NFT metadata.",
+      "Developed a responsive frontend with real-time updates using Web3 sockets.",
+      "Added features like royalty distribution and creator analytics dashboard.",
     ],
     href: "",
     logo: "",
@@ -318,36 +306,36 @@ const myProjects = [
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/images/logos/auth0.svg",
+        name: "ERC-721",
+        path: "/images/logos/ethereum.png",
       },
       {
         id: 2,
-        name: "React",
-        path: "/images/logos/react.svg",
+        name: "IPFS",
+        path: "/images/logos/ipfs.png",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/images/logos/sqlite.svg",
+        name: "Web3.js",
+        path: "/images/logos/node.png",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/images/logos/tailwindcss.svg",
+        name: "React",
+        path: "/images/logos/react.svg",
       },
     ],
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "DAO Governance Platform",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "A decentralized autonomous organization platform with voting mechanisms, treasury management, and proposal systems.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Implemented secure voting mechanisms using quadratic voting and token-weighted voting.",
+      "Built a treasury management system with multi-signature wallet integration.",
+      "Created a proposal system with time-locked execution and dispute resolution.",
+      "Developed an intuitive dashboard for DAO members to track governance activities.",
     ],
     href: "",
     logo: "",
@@ -355,36 +343,36 @@ const myProjects = [
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/images/logos/blazor.svg",
+        name: "Solidity",
+        path: "/images/logos/ethereum.png",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/images/logos/dotnetcore.svg",
+        name: "DAO",
+        path: "/images/logos/dao.png",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/images/logos/sqlite.svg",
+        name: "Web3.js",
+        path: "/images/logos/node.png",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/images/logos/tailwindcss.svg",
+        name: "TypeScript",
+        path: "/images/logos/typescript.svg",
       },
     ],
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "Cross-Chain Bridge",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "A secure cross-chain bridge enabling asset transfers between Ethereum, BSC, and Polygon with minimal fees and fast confirmations.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Developed smart contracts for secure asset locking and minting across chains.",
+      "Implemented a validator network for cross-chain transaction verification.",
+      "Built a user-friendly interface with real-time transaction tracking.",
+      "Added security features like multi-signature validation and time locks.",
     ],
     href: "",
     logo: "",
@@ -392,36 +380,36 @@ const myProjects = [
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/images/logos/cplusplus.svg",
+        name: "Rust",
+        path: "/images/logos/rust.png",
       },
       {
         id: 2,
-        name: "C#",
-        path: "/images/logos/csharp.svg",
+        name: "Solidity",
+        path: "/images/logos/ethereum.png",
       },
       {
         id: 3,
-        name: "Git",
-        path: "/images/logos/git.svg",
+        name: "Web3.js",
+        path: "/images/logos/node.png",
       },
       {
         id: 4,
-        name: "Microsoft",
-        path: "/images/logos/microsoft.svg",
+        name: "Polygon",
+        path: "/images/logos/polygon.png",
       },
     ],
   },
   {
     id: 5,
-    title: "WordPress Custom Theme",
+    title: "Yield Farming Aggregator",
     description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
+      "A DeFi yield farming aggregator that automatically finds and allocates assets to the highest yielding protocols across multiple chains.",
     subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
+      "Built algorithms to automatically detect and optimize yield farming opportunities.",
+      "Integrated with multiple DeFi protocols through standardized APIs.",
+      "Implemented gas optimization strategies for cost-effective transactions.",
+      "Created a dashboard showing real-time APYs and portfolio performance.",
     ],
     href: "",
     logo: "",
@@ -429,36 +417,36 @@ const myProjects = [
     tags: [
       {
         id: 1,
-        name: "WordPress",
-        path: "/images/logos/wordpress.svg",
+        name: "Solidity",
+        path: "/images/logos/ethereum.png",
       },
       {
         id: 2,
-        name: "HTML5",
-        path: "/images/logos/html5.svg",
+        name: "DeFi",
+        path: "/images/logos/defi.png",
       },
       {
         id: 3,
-        name: "CSS3",
-        path: "/images/logos/css3.svg",
+        name: "Web3.js",
+        path: "/images/logos/node.png",
       },
       {
         id: 4,
-        name: "Vite.js",
-        path: "/images/logos/vitejs.svg",
+        name: "Node.js",
+        path: "/images/logos/node.png",
       },
     ],
   },
   {
     id: 6,
-    title: "Online Learning Platform",
+    title: "Blockchain Analytics Dashboard",
     description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+      "A comprehensive analytics platform for monitoring blockchain transactions, token movements, and DeFi protocol performance.",
     subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
+      "Built real-time data pipelines using The Graph and blockchain RPC endpoints.",
+      "Implemented advanced analytics for transaction patterns and whale movements.",
+      "Created interactive visualizations for blockchain data and DeFi metrics.",
+      "Added alert system for unusual activities and market opportunities.",
     ],
     href: "",
     logo: "",
@@ -466,23 +454,23 @@ const myProjects = [
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/images/logos/blazor.svg",
+        name: "The Graph",
+        path: "/images/logos/graph.png",
       },
       {
         id: 2,
-        name: "Azure",
-        path: "/images/logos/azure.svg",
+        name: "Web3.js",
+        path: "/images/logos/node.png",
       },
       {
         id: 3,
-        name: "Stripe",
-        path: "/images/logos/stripe.svg",
+        name: "React",
+        path: "/images/logos/react.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/images/logos/tailwindcss.svg",
+        name: "D3.js",
+        path: "/images/logos/d3js.png",
       },
     ],
   },

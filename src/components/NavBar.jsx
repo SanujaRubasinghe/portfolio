@@ -7,7 +7,7 @@ const NavBar = () => {
     useEffect(() => {
         const handleScroll = () => {
             const isScrolled = window.scrollY > 10
-            setScrolled(true)
+            setScrolled(isScrolled)
         }
 
         window.addEventListener('scroll', handleScroll)
@@ -18,7 +18,7 @@ const NavBar = () => {
     <header className={`navbar ${scrolled ? 'scrolled' : 'not-scrolled'}`}>
         <div className="inner">
             <a href="#hero" className="logo">
-                Sanuja Rubasinghe
+                Shanuka Yasanga
             </a>
 
             <nav className="desktop">
@@ -34,11 +34,25 @@ const NavBar = () => {
                 </ul>
             </nav>
 
-            <a href="#contact" className="contact-btn group">
-                <div className="inner">
-                    <span>Contact me</span>
-                </div>
-            </a>
+            <div className="flex items-center gap-4">
+                <a href="https://linkedin.com/in/shanuka-yasanga" target="_blank" rel="noopener noreferrer" className="linkedin-btn group">
+                    <div className="inner">
+                        <img src="/images/linkedin.png" alt="LinkedIn" className="w-5 h-5" />
+                    </div>
+                </a>
+
+                <a href="/resume.pdf" download className="resume-btn group">
+                    <div className="inner">
+                        <span>Download Resume</span>
+                    </div>
+                </a>
+
+                <a href="#contact" className="contact-btn group">
+                    <div className="inner">
+                        <span>Contact me</span>
+                    </div>
+                </a>
+            </div>
         </div>
     </header>
   )
