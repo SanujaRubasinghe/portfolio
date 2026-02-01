@@ -4,7 +4,7 @@ const navLinks = [
     link: "#projects",
   },
   {
-    name: "Research",
+    name: "Education",
     link: "#experience",
   },
   {
@@ -18,20 +18,21 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Deep", imgPath: "/images/data.svg" },
-  { text: "Learning", imgPath: "/images/algorithms.svg" },
-  { text: "Core", imgPath: "/images/models.svg" },
-  { text: "AI", imgPath: "/images/ideas.svg" },
-  { text: "Deep", imgPath: "/images/data.svg" },
-  { text: "Learning", imgPath: "/images/algorithms.svg" },
-  { text: "Core", imgPath: "/images/models.svg" },
-  { text: "AI", imgPath: "/images/ideas.svg" },
+  { text: "Efficient", imgPath: "/images/data.svg" },
+  { text: "Robust", imgPath: "/images/algorithms.svg" },
+  { text: "Scalable", imgPath: "/images/ideas.svg" },
+  { text: "Reliable", imgPath: "/images/data.svg" },
+  { text: "Robust", imgPath: "/images/algorithms.svg" },
+  { text: "Secure", imgPath: "/images/ideas.svg" },
+  { text: "Optimized", imgPath: "/images/data.svg" },
+  { text: "Adaptive", imgPath: "/images/ideas.svg" },
+  { text: "Efficient", imgPath: "/images/data.svg" },
 ];
 
 const counterItems = [
   { value: 5, suffix: "+", label: "AI Projects" },
-  { value: 20, suffix: "+", label: "Research Papers" },
-  { value: 3, suffix: "+", label: "Years in Data Science" },
+  { value: 10, suffix: "+", label: "Research Papers Read" },
+  { value: 2, suffix: "+", label: "Years in Data Science" },
   { value: 10, suffix: "+", label: "Certifications" },
 ];
 
@@ -147,30 +148,31 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Comprehensive certification covering Ethereum blockchain development, smart contract programming, and DApp creation using Solidity.",
-    imgPath: "/images/project1.png",
-    logoPath: "/images/logos/ethereum.png",
-    title: "Ethereum Developer Certification",
-    date: "March 2024",
-    description: "Mastered Ethereum blockchain development through intensive hands-on training covering smart contract development with Solidity, Ethereum Virtual Machine architecture, gas optimization techniques, and decentralized application creation. Successfully built multiple DApps using Web3.js and ethers.js while implementing industry-standard security practices and design patterns.",
+    review: "Professional certification in AI engineering with hands-on projects building, training, and deploying real AI systems using modern ML and DL tools.",
+    imgPath: "/images/certificates/ibm-ai-engineer.jpg",
+    logoPath: "/images/logos/ibm_logo.png",
+    title: "IBM AI Engineer Specialization",
+    date: "December 2025",
+    description: "Completed the IBM AI Engineering Professional Certificate, mastering machine learning and deep learning fundamentals along with practical implementation. Worked with key Python AI libraries (SciPy, Scikit-Learn, Keras, PyTorch, TensorFlow) to build, train, and deploy models for classification, NLP, computer vision, recommender systems, and generative AI. Gained skills in neural network design, LLM development, and AI pipelines through project-based labs and real-world applications that demonstrate job-ready expertise in AI engineering. ",
   },
   {
-    review: "Advanced certification in DeFi protocols, covering lending platforms, automated market makers, and yield farming strategies.",
-    imgPath: "/images/certificates/defi-cert.jpg",
-    logoPath: "/images/logos/defi.png",
-    title: "DeFi Protocol Development",
-    date: "June 2024",
-    description: "Completed advanced training in decentralized finance protocol development, including building secure lending and borrowing platforms, implementing automated market making algorithms for decentralized exchanges, creating yield farming strategies with proper risk management, and developing cross-chain DeFi solutions using bridges and oracles.",
+    review: "In-depth PyTorch specialization focused on building, optimizing, and deploying deep learning models across tasks like vision and NLP.",
+    imgPath: "/images/certificates/pytorch-cert.jpg",
+    logoPath: "/images/logos/DeepLearning_ai.svg",
+    title: "PyTorch for Deep Learning",
+    date: "January 2026",
+    description: "Earned the PyTorch for Deep Learning Professional Certificate from DeepLearning.AI by completing a series of courses that teach hands-on model development using PyTorch. Covered fundamentals like tensors and neural networks, advanced architectures for computer vision and natural language processing, optimization techniques, transfer learning, and deployment workflows including ONNX and experiment tracking. Built and evaluated real deep learning systems while strengthening expertise in a key industry framework. ",
   },
   {
-    review: "Professional certification in blockchain security, focusing on smart contract auditing, vulnerability assessment, and secure development practices.",
-    imgPath: "/images/certificates/security-cert.jpg",
-    logoPath: "/images/logos/security.png",
-    title: "Blockchain Security Professional",
-    date: "September 2024",
-    description: "Achieved professional certification in blockchain security through comprehensive training in smart contract auditing using industry-standard tools, identifying and mitigating common vulnerabilities like reentrancy and overflow attacks, implementing secure development lifecycle for blockchain projects, and mastering formal verification techniques.",
+    review: "Specialization on reinforcement learning fundamentals, algorithm implementation, and adaptive decision-making systems.",
+    imgPath: "/images/certificates/rl-cert.jpg",
+    logoPath: "/images/logos/uni_alberta_logo.png",
+    title: "Reinforcement Learning Specialization",
+    date: "February 2026",
+    description: "Completed the Reinforcement Learning Specialization offered by the University of Alberta, gaining a deep understanding of RL principles and algorithms. Learned how to formalize sequential decision tasks, implement key approaches like temporal difference learning, Q-learning, and policy gradient methods, and build complete RL systems that improve through trial-and-error interaction. Applied RL tools and techniques to practical problems in AI, preparing for advanced research or real-world adaptive learning systems development.",
   },
 ];
+
 
 const expLogos = [
   {
