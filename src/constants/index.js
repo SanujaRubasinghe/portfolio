@@ -12,8 +12,8 @@ const navLinks = [
     link: "#skills",
   },
   {
-    name: "Blogs",
-    link: "#education",
+    name: "Blog",
+    link: "https://medium.com/@sanurubasinghe1234",
   },
 ];
 
@@ -189,50 +189,6 @@ const expLogos = [
   },
 ];
 
-const testimonials = [
-  {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
-    review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
-  },
-  {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
-    review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
-  },
-  {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
-    review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
-  },
-  {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
-    review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
-  },
-  {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
-    review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
-  },
-  {
-    name: "Albert Flores",
-    mentions: "@albertflores",
-    review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
-  },
-];
 
 const socialImgs = [
   {
@@ -256,226 +212,152 @@ const socialImgs = [
 const myProjects = [
   {
     id: 1,
-    title: "DeFi Lending Protocol",
+    title: "NeuroDetect: Brain Tumor Analysis using Deep Learning",
     description:
-      "A decentralized lending and borrowing platform built on Ethereum with automated market making and yield farming capabilities.",
+      "A deep learning-based system for brain tumor analysis using Convolutional Neural Networks (CNNs). The system is built with PyTorch, and it is trained on a dataset of brain MRI images to classify tumors.",
     subDescription: [
-      "Developed smart contracts using Solidity for secure lending and borrowing operations.",
-      "Implemented automated market making (AMM) algorithm for dynamic interest rates.",
-      "Created a React-based frontend with Web3.js for seamless blockchain interaction.",
-      "Added comprehensive security measures including audit-ready code and test coverage.",
+      "Developed a deep learning-based system for brain tumor analysis using Convolutional Neural Networks (CNNs). The system is built with PyTorch, and it is trained on a dataset of brain MRI images to classify tumors.",
+      "Implemented a U-Net architecture for tumor segmentation.",
+      "Implemented a Gradio interface for interactive tumor analysis.",
     ],
-    href: "",
+    href: "https://github.com/SanujaRubasinghe/NeuroDetect-Brain-Tumor-Analysis",
     logo: "",
-    image: "/images/projects/accessories.jpg",
+    image: "/images/projects/neurodetect_lg.png",
     tags: [
       {
         id: 1,
-        name: "Solidity",
-        path: "/images/logos/ethereum.png",
+        name: "Python",
+        path: "/images/tech/python.svg",
       },
       {
         id: 2,
-        name: "Web3.js",
-        path: "/images/logos/node.png",
+        name: "PyTorch",
+        path: "/images/tech/pytorch-logo.svg",
       },
       {
         id: 3,
-        name: "React",
-        path: "/images/logos/react.svg",
+        name: "FastAPI",
+        path: "/images/tech/fastapi-seeklogo.svg",
       },
       {
         id: 4,
-        name: "Ethereum",
-        path: "/images/logos/ethereum.png",
+        name: "Gradio",
+        path: "/images/tech/gradio-logo.svg",
       },
     ],
   },
   {
     id: 2,
-    title: "NFT Marketplace",
+    title: "AI-Powered Financial News Sentiment Radar",
     description:
-      "A full-featured NFT marketplace supporting ERC-721 and ERC-1155 tokens with auction capabilities and royalty distribution.",
+      "A real-time financial sentiment intelligence platform that leverages NLP and machine learning to analyze market sentiment from Twitter/X data streams.",
     subDescription: [
-      "Built smart contracts for NFT minting, trading, and auction functionality.",
-      "Implemented IPFS integration for decentralized storage of NFT metadata.",
-      "Developed a responsive frontend with real-time updates using Web3 sockets.",
-      "Added features like royalty distribution and creator analytics dashboard.",
+      "Implemented domain-specific sentiment analysis using CardiffNLP’s Twitter-RoBERTa transformer model to classify sentiment as positive, negative, or neutral.",
+      "Applied dynamic topic modeling with BERTopic and sentence embeddings (all-MiniLM-L6-v2) to automatically detect and cluster trending financial topics such as stocks, crypto, interest rates, and earnings.",
+      "Developed an interactive Flask-based dashboard with live data streaming, sentiment indicators, topic summaries, and auto-updating feeds.",
     ],
-    href: "",
+    href: "https://github.com/SanujaRubasinghe/AI-Powered-Financial-Topic-Sentiment-Analysis",
     logo: "",
-    image: "/images/projects/auth-system.jpg",
+    image: "/images/projects/fin_radar_lg.png",
     tags: [
       {
         id: 1,
-        name: "ERC-721",
-        path: "/images/logos/ethereum.png",
+        name: "Python",
+        path: "/images/tech/python.svg",
       },
       {
         id: 2,
-        name: "IPFS",
-        path: "/images/logos/ipfs.png",
+        name: "Flask",
+        path: "/images/tech/flask-logo.svg",
       },
       {
         id: 3,
-        name: "Web3.js",
-        path: "/images/logos/node.png",
-      },
-      {
-        id: 4,
-        name: "React",
-        path: "/images/logos/react.svg",
-      },
+        name: "Hugging Face",
+        path: "/images/tech/hugging-face-logo.svg",
+      }
     ],
   },
   {
     id: 3,
-    title: "DAO Governance Platform",
+    title: "SentinAI: Real-Time Violence Detection & Surveillance Platform",
     description:
-      "A decentralized autonomous organization platform with voting mechanisms, treasury management, and proposal systems.",
+      "A production-grade AI surveillance platform designed to detect violent activity in real-time video streams, combining advanced computer vision models with a responsive, low-latency web dashboard.",
     subDescription: [
-      "Implemented secure voting mechanisms using quadratic voting and token-weighted voting.",
-      "Built a treasury management system with multi-signature wallet integration.",
-      "Created a proposal system with time-locked execution and dispute resolution.",
-      "Developed an intuitive dashboard for DAO members to track governance activities.",
+      "Engineered an automated incident reporting mechanism that captures, uploads, and persists high-risk events (violence probability > 70%) for audit trails and post-event analysis.",
+      "Built an interactive surveillance dashboard featuring a glassmorphism UI with dark mode, live CCTV overlays, dynamic threat meters, and a session peak tracker to highlight critical moments.",
+      "Developed a full-stack architecture with a FastAPI backend for video processing and static file serving.",
     ],
-    href: "",
+    href: "https://github.com/SanujaRubasinghe/SentinAI-Real-Time-Violence-Detection",
     logo: "",
-    image: "/images/projects/blazor-app.jpg",
+    image: "/images/projects/sent_ai_lg.png",
     tags: [
       {
         id: 1,
-        name: "Solidity",
-        path: "/images/logos/ethereum.png",
+        name: "Python",
+        path: "/images/tech/python.svg",
       },
       {
         id: 2,
-        name: "DAO",
-        path: "/images/logos/dao.png",
+        name: "PyTorch",
+        path: "/images/tech/pytorch-logo.svg",
       },
       {
         id: 3,
-        name: "Web3.js",
-        path: "/images/logos/node.png",
-      },
-      {
-        id: 4,
-        name: "TypeScript",
-        path: "/images/logos/typescript.svg",
+        name: "FastAPI",
+        path: "/images/tech/fastapi-seeklogo.svg",
       },
     ],
   },
   {
     id: 4,
-    title: "Cross-Chain Bridge",
+    title: "Metal Surface Defect Detection with Grad-CAM",
     description:
-      "A secure cross-chain bridge enabling asset transfers between Ethereum, BSC, and Polygon with minimal fees and fast confirmations.",
+      "An end-to-end deep learning system for automated detection and visualization of metal surface defects, demonstrating the use of computer vision and explainable AI for industrial quality control.",
     subDescription: [
-      "Developed smart contracts for secure asset locking and minting across chains.",
-      "Implemented a validator network for cross-chain transaction verification.",
-      "Built a user-friendly interface with real-time transaction tracking.",
-      "Added security features like multi-signature validation and time locks.",
+      "Implemented convolutional neural network models in PyTorch with comprehensive data preprocessing and evaluation workflows.",
+      "Integrated Grad-CAM to provide visual explanations of model predictions, enabling defect localization and improving model interpretability.",
+      "Built an interactive Gradio-based demo interface to visualize predictions and attention maps in real time.",
     ],
-    href: "",
+    href: "https://github.com/SanujaRubasinghe/Metal-Surface-Defect-Detector",
     logo: "",
-    image: "/images/projects/game-engine.jpg",
+    image: "/images/projects/defect_detect_lg.png",
     tags: [
       {
         id: 1,
-        name: "Rust",
-        path: "/images/logos/rust.png",
+        name: "Python",
+        path: "/images/tech/python.svg",
       },
       {
         id: 2,
-        name: "Solidity",
-        path: "/images/logos/ethereum.png",
+        name: "PyTorch",
+        path: "/images/tech/pytorch-logo.svg",
       },
       {
         id: 3,
-        name: "Web3.js",
-        path: "/images/logos/node.png",
-      },
-      {
-        id: 4,
-        name: "Polygon",
-        path: "/images/logos/polygon.png",
+        name: "Gradio",
+        path: "/images/tech/gradio-logo.svg",
       },
     ],
   },
   {
     id: 5,
-    title: "Yield Farming Aggregator",
+    title: "SSD Indexer: High-Performance Disk Usage Analyzer in Go",
     description:
-      "A DeFi yield farming aggregator that automatically finds and allocates assets to the highest yielding protocols across multiple chains.",
+      "A high-performance terminal-based application built in Go for analyzing disk storage usage with real-time progress tracking and detailed file categorization.",
     subDescription: [
-      "Built algorithms to automatically detect and optimize yield farming opportunities.",
-      "Integrated with multiple DeFi protocols through standardized APIs.",
-      "Implemented gas optimization strategies for cost-effective transactions.",
-      "Created a dashboard showing real-time APYs and portfolio performance.",
     ],
-    href: "",
+    href: "https://github.com/SanujaRubasinghe/ssd-indexer",
     logo: "",
-    image: "/images/projects/wordpress-theme.jpg",
+    image: "/images/projects/ssd_indexer_lg.png",
     tags: [
       {
         id: 1,
-        name: "Solidity",
-        path: "/images/logos/ethereum.png",
-      },
-      {
-        id: 2,
-        name: "DeFi",
-        path: "/images/logos/defi.png",
-      },
-      {
-        id: 3,
-        name: "Web3.js",
-        path: "/images/logos/node.png",
-      },
-      {
-        id: 4,
-        name: "Node.js",
-        path: "/images/logos/node.png",
+        name: "Go",
+        path: "/images/tech/go-lang-logo.svg",
       },
     ],
-  },
-  {
-    id: 6,
-    title: "Blockchain Analytics Dashboard",
-    description:
-      "A comprehensive analytics platform for monitoring blockchain transactions, token movements, and DeFi protocol performance.",
-    subDescription: [
-      "Built real-time data pipelines using The Graph and blockchain RPC endpoints.",
-      "Implemented advanced analytics for transaction patterns and whale movements.",
-      "Created interactive visualizations for blockchain data and DeFi metrics.",
-      "Added alert system for unusual activities and market opportunities.",
-    ],
-    href: "",
-    logo: "",
-    image: "/images/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "The Graph",
-        path: "/images/logos/graph.png",
-      },
-      {
-        id: 2,
-        name: "Web3.js",
-        path: "/images/logos/node.png",
-      },
-      {
-        id: 3,
-        name: "React",
-        path: "/images/logos/react.svg",
-      },
-      {
-        id: 4,
-        name: "D3.js",
-        path: "/images/logos/d3js.png",
-      },
-    ],
-  },
+  }
+
 ];
 
 export {
@@ -485,7 +367,6 @@ export {
   counterItems,
   expCards,
   expLogos,
-  testimonials,
   socialImgs,
   techStackIcons,
   techStackImgs,

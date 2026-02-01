@@ -12,16 +12,17 @@ const ShowcaseSection = () => {
     const project3Ref = useRef(null)
 
     useGSAP(() => {
-        gsap.fromTo(sectionRef.current, 
-            {opacity: 0},
-            {opacity: 1, duration: 1.5}
+        gsap.fromTo(sectionRef.current,
+            { opacity: 0 },
+            { opacity: 1, duration: 1.5 }
         )
         const projects = [project1Ref.current, project2Ref.current, project3Ref.current]
 
         projects.forEach((project, index) => {
             gsap.fromTo(project,
-                {y: 50, opacity: 0},
-                {y: 0, opacity: 1, duration: 1, delay: 0.3 * (index + 1),
+                { y: 50, opacity: 0 },
+                {
+                    y: 0, opacity: 1, duration: 1, delay: 0.3 * (index + 1),
                     scrollTrigger: {
                         trigger: project,
                         start: 'top bottom-=100'
@@ -31,42 +32,42 @@ const ShowcaseSection = () => {
         })
     }, [])
 
-  return (
-    <section id='projects' ref={sectionRef} className='app-showcase'>
-        <div className="w-full">
-            <h1 className="text-heading text-white-50 mb-12 text-left">Featured Projects</h1>
-            <div className="showcaselayout">
-                {/* LEFT */}
-                <div className="first-project-wrapper" ref={project1Ref}>
-                    <div className="image-wrapper">
-                        <img src="/images/project1.png" alt="project1" />
-                    </div>
-                    <div className="text-content">
-                        <h2>On-Demand Rides Made Simple with a Powerful, User-Friendly App called Ryde</h2>
-                        <p className="text-white-50 md:text-xl">
-                            An app built with React Native, Expo & TailwindCSS for a fast, user-friendly experience.
-                        </p>
-                    </div>
-                </div>
-                {/* RIGHT */}
-                <div className="project-list-wrapper overflow-hidden">
-                    <div className="project" ref={project2Ref}>
-                        <div className='image-wrapper bg-[#ffefdb]'>
-                            <img src="/images/project2.png" alt="project2" />
+    return (
+        <section id='projects' ref={sectionRef} className='app-showcase'>
+            <div className="w-full">
+                <h1 className="text-heading text-white-50 mb-12 text-left">Featured Projects</h1>
+                <div className="showcaselayout">
+                    {/* LEFT */}
+                    <div className="first-project-wrapper" ref={project1Ref}>
+                        <div className="image-wrapper">
+                            <img src="/images/projects/neurodetect.png" alt="project1" />
                         </div>
-                        <h2>Library Management Platform</h2>
-                    </div>
-                    <div className="project" ref={project3Ref}> 
-                        <div className='image-wrapper bg-[#ffe7eb]'>
-                            <img src="/images/project3.png" alt="project3" />
+                        <div className="text-content">
+                            <h2>NeuroDetect: Brain Tumor Analysis using Deep Learning</h2>
+                            <p className="text-white-50 md:text-xl">
+                                A deep learning-based system for brain tumor detection using Convolutional Neural Networks (CNNs). The system is built with PyTorch, and it is trained on a dataset of brain MRI images to classify tumors. It also segments the tumor using a U-Net architecture.
+                            </p>
                         </div>
-                        <h2>YC Directory - A Startup Showcase App</h2>
+                    </div>
+                    {/* RIGHT */}
+                    <div className="project-list-wrapper overflow-hidden">
+                        <div className="project" ref={project2Ref}>
+                            <div className='image-wrapper bg-[#ffefdb]'>
+                                <img src="/images/projects/fin_radar.png" alt="project2" />
+                            </div>
+                            <h2>FIN Radar: Stock Market Analysis using Deep Learning</h2>
+                        </div>
+                        <div className="project" ref={project3Ref}>
+                            <div className='image-wrapper bg-[#ffe7eb]'>
+                                <img src="/images/projects/sent_ai.png" alt="project3" />
+                            </div>
+                            <h2>SentAI: Real time violence detection and surveillance using Deep Learning</h2>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-  )
+        </section>
+    )
 }
 
 export default ShowcaseSection
