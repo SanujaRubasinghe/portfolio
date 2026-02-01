@@ -149,7 +149,7 @@ const techStackIcons = [
 const expCards = [
   {
     review: "Professional certification in AI engineering with hands-on projects building, training, and deploying real AI systems using modern ML and DL tools.",
-    imgPath: "/images/certificates/ibm-ai-engineer.jpg",
+    imgPath: "/images/certificates/ibm.png",
     logoPath: "/images/logos/ibm_logo.png",
     title: "IBM AI Engineer Specialization",
     date: "December 2025",
@@ -157,7 +157,7 @@ const expCards = [
   },
   {
     review: "In-depth PyTorch specialization focused on building, optimizing, and deploying deep learning models across tasks like vision and NLP.",
-    imgPath: "/images/certificates/pytorch-cert.jpg",
+    imgPath: "/images/certificates/pytorch.png",
     logoPath: "/images/logos/DeepLearning_ai.svg",
     title: "PyTorch for Deep Learning",
     date: "January 2026",
@@ -165,7 +165,7 @@ const expCards = [
   },
   {
     review: "Specialization on reinforcement learning fundamentals, algorithm implementation, and adaptive decision-making systems.",
-    imgPath: "/images/certificates/rl-cert.jpg",
+    imgPath: "/images/certificates/rl_temp.png",
     logoPath: "/images/logos/uni_alberta_logo.png",
     title: "Reinforcement Learning Specialization",
     date: "February 2026",
