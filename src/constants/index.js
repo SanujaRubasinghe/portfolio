@@ -92,24 +92,24 @@ const abilities = [
 
 const techStackImgs = [
   {
-    name: "Python Expert",
-    imgPath: "/images/logos/ethereum.png",
+    name: "Python",
+    imgPath: "/images/tech/python.svg",
   },
   {
-    name: "Deep Learning",
-    imgPath: "/images/logos/rust.png",
+    name: "PyTorch",
+    imgPath: "/images/tech/pytorch-logo.svg",
   },
   {
-    name: "Computer Vision",
-    imgPath: "/images/logos/node.png",
+    name: "AWS",
+    imgPath: "/images/tech/aws-logo.svg",
   },
   {
-    name: "Data Scientist",
-    imgPath: "/images/logos/three.png",
+    name: "Docker",
+    imgPath: "/images/tech/docker-logo.svg",
   },
   {
-    name: "RL Researcher",
-    imgPath: "/images/logos/git.svg",
+    name: "Hugging Face",
+    imgPath: "/images/tech/hugging-face-logo.svg",
   },
 ];
 
