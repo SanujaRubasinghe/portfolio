@@ -8,12 +8,14 @@ import ExperienceSection from './sections/ExperienceSection'
 import TechStack from './sections/TechStack'
 import Contact from './sections/Contact'
 import Footer from './sections/Footer'
+import GitHubSection from './components/GitHubSection'
 
 const App = () => {
   return (
     <>
       <NavBar />
       <Hero />
+      <GitHubSection />
       <ShowcaseSection />
       <Projects />
       <FeatureCards />

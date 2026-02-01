@@ -18,21 +18,21 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Smart", imgPath: "/images/data.svg" },
-  { text: "Contracts", imgPath: "/images/algorithms.svg" },
-  { text: "DeFi", imgPath: "/images/models.svg" },
-  { text: "Web3", imgPath: "/images/ideas.svg" },
-  { text: "Smart", imgPath: "/images/data.svg" },
-  { text: "Contracts", imgPath: "/images/algorithms.svg" },
-  { text: "DeFi", imgPath: "/images/models.svg" },
-  { text: "Web3", imgPath: "/images/ideas.svg" },
+  { text: "Deep", imgPath: "/images/data.svg" },
+  { text: "Learning", imgPath: "/images/algorithms.svg" },
+  { text: "Core", imgPath: "/images/models.svg" },
+  { text: "AI", imgPath: "/images/ideas.svg" },
+  { text: "Deep", imgPath: "/images/data.svg" },
+  { text: "Learning", imgPath: "/images/algorithms.svg" },
+  { text: "Core", imgPath: "/images/models.svg" },
+  { text: "AI", imgPath: "/images/ideas.svg" },
 ];
 
 const counterItems = [
-  { value: 5, suffix: "+", label: "Blockchain Projects" },
-  { value: 10, suffix: "+", label: "Smart Contracts" },
-  { value: 3, suffix: "+", label: "DeFi Protocols" },
-  { value: 2, suffix: "", label: "Years in Web3" },
+  { value: 5, suffix: "+", label: "AI Projects" },
+  { value: 20, suffix: "+", label: "Research Papers" },
+  { value: 3, suffix: "+", label: "Years in Data Science" },
+  { value: 10, suffix: "+", label: "Certifications" },
 ];
 
 const logoIconsList = [
@@ -74,40 +74,40 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Smart Contract Development",
-    desc: "Building secure and efficient smart contracts using Solidity and Rust for various blockchain platforms.",
+    title: "Deep Learning",
+    desc: "Developing advanced neural networks and deep learning models for complex pattern recognition tasks.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "DeFi Protocols",
-    desc: "Designing and implementing decentralized finance protocols with focus on security and user experience.",
+    title: "Computer Vision",
+    desc: "Building state-of-the-art computer vision systems for object detection, segmentation, and image analysis.",
   },
   {
     imgPath: "/images/time.png",
-    title: "Web3 Integration",
-    desc: "Integrating blockchain solutions with traditional web applications and creating seamless user experiences.",
+    title: "Reinforcement Learning",
+    desc: "Implementing autonomous agents and decision-making systems using reinforcement learning algorithms.",
   },
 ];
 
 const techStackImgs = [
   {
-    name: "Solidity Developer",
+    name: "Python Expert",
     imgPath: "/images/logos/ethereum.png",
   },
   {
-    name: "Rust Developer",
+    name: "Deep Learning",
     imgPath: "/images/logos/rust.png",
   },
   {
-    name: "Web3.js Expert",
+    name: "Computer Vision",
     imgPath: "/images/logos/node.png",
   },
   {
-    name: "Blockchain Architect",
+    name: "Data Scientist",
     imgPath: "/images/logos/three.png",
   },
   {
-    name: "Smart Contract Auditor",
+    name: "RL Researcher",
     imgPath: "/images/logos/git.svg",
   },
 ];

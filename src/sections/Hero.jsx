@@ -8,7 +8,7 @@ import AnimatedCounter from '../components/AnimatedCounter'
 
 const Hero = () => {
     useGSAP(() => {
-        gsap.fromTo('.hero-text h1', 
+        gsap.fromTo('.hero-text h1',
             {
                 y: 50,
                 opacity: 0
@@ -22,60 +22,59 @@ const Hero = () => {
             },
         )
     })
-  return (
-    <section id="hero" className='relative overflow-hidden'>
-        <div className="absolute top-0 left-0 z-10">
-            <img src="/images/bg.png" alt="background" />
-        </div>
+    return (
+        <section id="hero" className='relative overflow-hidden'>
+            <div className="absolute top-0 left-0 z-10">
+                <img src="/images/bg.png" alt="background" />
+            </div>
 
-        <div className="hero-layout">
-            {/*LEFT: Hero Content*/}
-            <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
-                <div className="flex flex-col gap-7">
-                    <div className="hero-text">
-                        <h1>Building
-                        <span className="slide">
-                            <span className="wrapper">
-                                {words.map((word) => (
-                                    <span key={word.text} className="flex items-center md:gap-3 gap-1 pb-2">
-                                        <img
-                                            src={word.imgPath}
-                                            alt={word.text}
-                                            className='xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white'
-                                        />
-                                        <span>{word.text}</span>
+            <div className="hero-layout">
+                {/*LEFT: Hero Content*/}
+                <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
+                    <div className="flex flex-col gap-7">
+                        <div className="hero-text">
+                            <h1>Building
+                                <span className="slide">
+                                    <span className="wrapper">
+                                        {words.map((word) => (
+                                            <span key={word.text} className="flex items-center md:gap-3 gap-1 pb-2">
+                                                <img
+                                                    src={word.imgPath}
+                                                    alt={word.text}
+                                                    className='xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white'
+                                                />
+                                                <span>{word.text}</span>
+                                            </span>
+                                        ))}
                                     </span>
-                                ))}
-                            </span>
-                        </span>
-                        </h1>
-                        <h1>Building</h1>
-                        <h1>Decentralized Solutions</h1>
-                        <h1>Through Blockchain & Web3</h1>
+                                </span>
+                            </h1>
+                            <h1>Intelligent Solutions</h1>
+                            <h1>With AI & Deep Learning</h1>
+                        </div>
+                        <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
+                            Hi, I'm Sanuja Rubasinghe, a data science undergraduate passionate about deep learning,
+                        </p>
+                        <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
+                            specially computer vision algorithms and reinforcement learning.
+                        </p>
+                        <Button
+                            className="md:w-80 md:h-16 w-60 h-12"
+                            id="button"
+                            text="See my Work"
+                        />
                     </div>
-                    <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                        Hi, I'm Shanuka Yasanga, a blockchain developer passionate about decentralized systems,
-                    </p>
-                    <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                        building innovative solutions with smart contracts and Web3 technologies.
-                    </p>
-                    <Button 
-                       className="md:w-80 md:h-16 w-60 h-12" 
-                       id="button"
-                       text="See my Work"
-                    />
-                </div>
-            </header>
-            {/*RIGHT: 3D Model*/}
-            <figure>
-                <div className="hero-3d-layout">
-                    <HeroExperience />
-                </div>
-            </figure>
-        </div>
-        <AnimatedCounter />
-    </section>
-  )
+                </header>
+                {/*RIGHT: 3D Model*/}
+                <figure>
+                    <div className="hero-3d-layout">
+                        <HeroExperience />
+                    </div>
+                </figure>
+            </div>
+            <AnimatedCounter />
+        </section>
+    )
 }
 
 export default Hero
