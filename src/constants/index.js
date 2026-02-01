@@ -148,7 +148,7 @@ const techStackIcons = [
 const expCards = [
   {
     review: "Comprehensive certification covering Ethereum blockchain development, smart contract programming, and DApp creation using Solidity.",
-    imgPath: "/images/certificates/ethereum-cert.jpg",
+    imgPath: "/images/project1.png",
     logoPath: "/images/logos/ethereum.png",
     title: "Ethereum Developer Certification",
     date: "March 2024",
