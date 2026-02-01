@@ -20,7 +20,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setLoading(true); // Show loading state
+    setLoading(true);
 
     try {
       await emailjs.sendForm(
@@ -30,12 +30,18 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       );
 
-      // Reset form and stop loading
-      setForm({ name: "", email: "", message: "" });
+      setLoading(false);
+      alert("Thank you. I will get back to you as soon as possible.");
+
+      setForm({
+        name: "",
+        email: "",
+        message: "",
+      });
     } catch (error) {
-      console.error("EmailJS Error:", error); // Optional: show toast
-    } finally {
-      setLoading(false); // Always stop loading, even on error
+      setLoading(false);
+      console.error(error);
+      alert("Ahh, something went wrong. Please try again.");
     }
   };
 
