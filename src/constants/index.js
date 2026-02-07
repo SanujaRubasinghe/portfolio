@@ -165,7 +165,7 @@ const expCards = [
   },
   {
     review: "Specialization on reinforcement learning fundamentals, algorithm implementation, and adaptive decision-making systems.",
-    imgPath: "/images/certificates/rl_temp.png",
+    imgPath: "/images/certificates/rl.png",
     logoPath: "/images/logos/uni_alberta_logo.png",
     title: "Reinforcement Learning Specialization",
     date: "February 2026",
